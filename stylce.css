@@ -1,0 +1,173 @@
+/*Exercice 0 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .mother0 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .daughter0 {
+    height:fit-content;
+    width: fit-content;
+    background-color: orange;
+    border: 1px solid black;
+ }
+
+ /*Exercice 1 */
+
+ .mother1 {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    background-color: crimson;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .daughter1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: orange;
+    border: solid 1px black;
+ }
+
+/*Exercice 2*/
+
+.mother2 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.daughter2 {  
+    background-color: orange;
+    border: 4px solid black;
+    margin:5px;
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+ .granddaughter2 {
+        background-color: yellow;
+        border: 2px solid black;
+    }
+
+ /*Exercice 3*/
+
+ .mother3 {
+    border:solid 2px blue;
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+
+  }
+
+  .mother3 >div {
+      border:solid 2px red;
+  }
+
+  .mother3  img {
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .mother3 > div > div {
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+  .mother4 {
+    border:solid 2px blue;
+    /* height: 400px; */
+    display: flex;
+    gap:10px;
+    overflow: scroll;
+
+  }
+
+  .mother4 >div {
+      border:solid 2px red;
+
+  }
+
+  .mother4  img {
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .mother4 > div > div {
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+
+  .mother5 {
+    border:solid 2px blue;
+    /* height: 400px; */
+    display: flex;
+    gap:10px;
+    overflow: scroll;
+
+  }
+
+  .mother5 >div {
+      border:solid 2px red;
+      width: 28%;
+      flex-shrink: 0
+  }
+
+  .mother5  img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .mother5 > div > div {
+    background-color: rgb(127, 255, 127);
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .mother6 {
+    width: 100%;
+    border:solid 2px purple;
+    height: 600px;
+    background-image: url("https://img.freepik.com/photos-premium/groupe-adorables-chats-blottis-ensemble-dans-fort-douillet_986714-1126.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mother6 > div {
+    font-size: 60px;
+    color: orange;
+  }
+  .mother6 > p {
+    font-size: 30px;
+    color: white;
+  }
